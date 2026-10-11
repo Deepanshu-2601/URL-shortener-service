@@ -108,7 +108,7 @@ uvicorn main:app --reload
 The app will be available at:
 
 - Swagger UI: http://127.0.0.1:8000/docs
-- GitHub RE: http
+- GitHub RE:  https://github.com/Deepanshu-2601/URL-shortener-service.git
 ---
 
 ## API Endpoints
