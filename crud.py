@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from app.models import URLItem
-from app.utils import generate_short_code
+from models import URLItem
+from utils import generate_short_code
 
 # Naya short URL create karna
 def create_url(db: Session, original_url: str) -> URLItem:
