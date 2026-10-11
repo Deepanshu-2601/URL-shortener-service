@@ -5,9 +5,9 @@ from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.responses import RedirectResponse
 from sqlalchemy.orm import Session
 
-from app.database import engine, Base, get_db
-from app.schemas import URLCreate, URLResponse, URLStats
-import app.crud as crud
+from database import engine, Base, get_db
+from schemas import URLCreate, URLResponse, URLStats
+import crud as crud
 
 # Database tables automatically create kar dega
 Base.metadata.create_all(bind=engine)
